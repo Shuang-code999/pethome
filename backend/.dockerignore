@@ -1,0 +1,10 @@
+# 构建时排除，加速 + 避免把本地产物打进镜像
+target/
+*.log
+*.iml
+.idea/
+.mvn/
+ HELP.md
+# 运行时目录（用 volume，不打进镜像）
+uploads/
+# .env 必须打进（含 VITE_/密钥）—— 不要列在这里

@@ -1,0 +1,32 @@
+# ===== 后端 =====
+backend/target/
+backend/.env
+backend/run.bat
+backend/.idea/
+backend/uploads/
+backend/shtr/
+*.iml
+HELP.md
+
+# ===== 前端 =====
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.local
+
+# ===== 根 =====
+/.env
+
+# ===== 爬虫原始图源（可用 crawl_pets.js 重新生成，体积大）=====
+# 注意：前端实际用的图在 frontend/public/assets/（保留入库，保证 clone 即可运行）
+picture/
+
+# ===== 第三方 skill 仓库克隆（非本项目代码，repo2 还带嵌套 .git）=====
+.visio-tools/repo1/
+.visio-tools/repo2/
+
+# ===== 会话 / 编辑器临时 =====
+.claude/
+*.log
+.DS_Store

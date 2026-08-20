@@ -1,0 +1,153 @@
+server:
+  port: 8088
+  servlet:
+    context-path: /api
+
+spring:
+  config:
+    import: optional:file:./.env[.properties]
+  application:
+    name: pethome-backend
+  profiles:
+    active: dev
+
+  # Spring AI：OpenAI 兼容 -> 百炼 DashScope 兼容模式
+  # 密钥通过环境变量 BAILIAN_API_KEY 注入，勿硬编码（见 .env）
+  ai:
+    openai:
+      # 密钥通过环境变量 BAILIAN_API_KEY 注入；未设置时用占位值让后端能启动（AI 客服暂不可用，登录/商品/秒杀/社区不受影响）
+      api-key: ${BAILIAN_API_KEY:sk-dummy-not-a-real-key}
+      base-url: https://dashscope.aliyuncs.com/compatible-mode
+      chat:
+        options:
+          model: qwen-plus
+          temperature: 0.7
+      embedding:
+        options:
+          model: text-embedding-v3
+
+  # MySQL
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${DB_HOST:localhost}:3306/pet_home?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=utf-8&allowPublicKeyRetrieval=true
+    username: root
+    password: ${DB_PASSWORD:root123}
+
+  # Redis
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: 6379
+
+  # RabbitMQ
+  rabbitmq:
+    host: ${MQ_HOST:localhost}
+    port: 5672
+    username: ${MQ_USERNAME:pet}
+    password: ${MQ_PASSWORD:pet123}
+    listener:
+      simple:
+        prefetch: 1
+        acknowledge-mode: auto
+
+  # Tomcat：让 ?q=中文 参数按 UTF-8 解码（默认 ISO-8859-1 会乱码）
+  tomcat:
+    uri-encoding: UTF-8
+
+  # 启动时自动执行 schema.sql（建表用 IF NOT EXISTS，迁移用动态 SQL 兜底）
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema.sql
+      continue-on-error: true
+      encoding: UTF-8
+
+# MyBatis-Plus
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: assign_id
+
+# 业务配置
+pethome:
+  jwt:
+    secret: ${JWT_SECRET:pethome-secret-key-please-change-in-production-2026}
+    ttl: 18000000    # 5 小时(ms)
+  rate-limit:
+    tokens: 10        # 每秒补充 token 数
+    capacity: 20      # 令牌桶容量
+  seckill:
+    pay-timeout-min: 30   # 秒杀订单支付超时（分钟），到期未支付由死信消费者自动关单回滚库存（测试可改 1）
+  upload:
+    dir: ${UPLOAD_DIR:uploads}
+  sms:
+    access-key-id: ${ALIYUN_ACCESS_KEY_ID:}
+    access-key-secret: ${ALIYUN_ACCESS_KEY_SECRET:}
+    sign-name: ${ALIYUN_SMS_SIGN_NAME:萌宠之家}
+    template-code: ${ALIYUN_SMS_TEMPLATE_CODE:}
+  weather:
+    api-key: ${WEATHER_API_KEY:}
+  alipay:
+    app-id: ${ALIPAY_APP_ID:}
+    private-key: ${ALIPAY_PRIVATE_KEY:}
+    public-key: ${ALIPAY_PUBLIC_KEY:}
+    gateway: ${ALIPAY_GATEWAY:https://openapi-sandbox.dl.alipaydev.com/gateway.do}
+    notify-url: ${ALIPAY_NOTIFY_URL:}
+  tencent:
+    secret-id: ${TENCENT_SECRET_ID:}
+    secret-key: ${TENCENT_SECRET_KEY:}
+  customer-service:
+    system-prompt: |
+      你是「萌宠之家」平台的智能客服小萌，负责解答养宠问题、平台功能咨询。
+      回答要简洁、友好、有条理，用「你」称呼用户。
+      涉及看病、用药时只给建议并提醒及时就医，不开处方。
+      你是平台客服，不是医生，但可以基于常见知识帮助判断。
+      不知道就说不知道，不要编造。
+  consult:
+    system-prompt: |
+      你是「萌宠之家」AI 宠物医生，仅提供健康咨询和分诊建议，不开具处方。
+      回答要简洁、分点、温和；遇到严重症状（频繁呕吐/血便/呼吸困难/抽搐/外伤出血等）必须提醒用户立即就医。
+      可基于常见宠物养护知识给出护理建议，不知道就诚实说明，不编造。
+    # 宠物档案上下文注入指令：拼在档案信息之后，引导模型给出针对性建议（档案为空时不注入）
+    profile-prompt: |
+      请务必结合上述宠物档案给出针对性建议：
+      - 参考该物种/品种的常见易发疾病与饲养要点；
+      - 结合年龄、体重、绝育状态调整建议（幼年/老年/孕期需更谨慎）；
+      - 若档案记录了过敏史或慢性病，优先从该方向排查与提示；
+      - 涉及用药或外用时，必须避开「禁忌药物」字段所列成分，未明确安全性时不要推荐具体药物；
+      - 体重近期明显下降/上升时主动提示可能的健康风险。
+      若用户问题与该宠物档案无关（如通用知识），可正常回答，无需强行关联。
+    # AI 模型选择：可选模型列表（百炼 DashScope 兼容模式）
+    models:
+      - id: qwen-turbo
+        name: 通义千问 Turbo（快速）
+        desc: 响应最快，适合日常问答
+        default: false
+      - id: qwen-plus
+        name: 通义千问 Plus（推荐）
+        desc: 综合能力强，适合宠物医疗问诊
+        default: true
+      - id: qwen-max
+        name: 通义千问 Max（深度）
+        desc: 最强理解能力，复杂病情分析
+        default: false
+    # 知识库开关
+    knowledge-base:
+      enabled: true
+      top-k: 3
+  # 高德 Web API Key（前端 / 后端共用），同 .env 的 AMAP_API_KEY
+  amap:
+    api-key: ${AMAP_API_KEY:}
+    default-city: ${AMAP_DEFAULT_CITY:北京}
+
+logging:
+  level:
+    com.pethome: debug
+    org.springframework.ai: info
+
+# 第三方 API Key（走环境变量）
+unsplash:
+  access-key: ${UNSPLASH_ACCESS_KEY:}

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 04-ai.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="16in" height="11.5in" viewBox="0 0 1152 828"
+		xml:space="preserve" color-interpolation-filters="sRGB" class="st22">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#f6f0fc;stroke:#7a58a6;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+		.st2 {fill:#111111;font-family:宋体;font-size:1.33333em;font-weight:bold}
+		.st3 {fill:#f6f0fc;stroke:#7a58a6;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.8}
+		.st4 {fill:#111111;font-family:宋体;font-size:0.833336em;font-weight:bold}
+		.st5 {font-size:1em}
+		.st6 {marker-end:url(#mrkr4-13);stroke:#5f5f5f;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.3}
+		.st7 {fill:#5f5f5f;fill-opacity:1;stroke:#5f5f5f;stroke-opacity:1;stroke-width:0.34031413612565}
+		.st8 {fill:#ffffff;stroke:#5f5f5f;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.8}
+		.st9 {fill:#111111;font-family:宋体;font-size:0.791656em}
+		.st10 {fill:#fff3e6;stroke:#e7741a;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st11 {fill:#111111;font-family:宋体;font-size:0.791656em;font-weight:bold}
+		.st12 {fill:#eef6e7;stroke:#5a8440;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.8}
+		.st13 {fill:#111111;font-family:宋体;font-size:0.75em}
+		.st14 {marker-end:url(#mrkr4-83);stroke:#5f5f5f;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+		.st15 {fill:#5f5f5f;fill-opacity:1;stroke:#5f5f5f;stroke-opacity:1;stroke-width:0.32258064516129}
+		.st16 {fill:#f6f0fc;stroke:#7a58a6;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st17 {fill:#111111;font-family:宋体;font-size:0.75em;font-weight:bold}
+		.st18 {fill:#eef5ff;stroke:#1f5fb8;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.8}
+		.st19 {fill:#eef5ff;stroke:#1f5fb8;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st20 {marker-end:url(#mrkr4-108);stroke:#5f5f5f;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st21 {fill:#5f5f5f;fill-opacity:1;stroke:#5f5f5f;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st22 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-13" class="st7" v:arrowType="4" v:arrowSize="2" v:setback="5.87692" refX="-5.8769230769231" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-2.9384615384615,-2.9384615384615) "/>
+		</marker>
+		<marker id="mrkr4-83" class="st15" v:arrowType="4" v:arrowSize="2" v:setback="6.2" refX="-6.2" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-3.1,-3.1) "/>
+		</marker>
+		<marker id="mrkr4-108" class="st21" v:arrowType="4" v:arrowSize="2" v:setback="7.04" refX="-7.04" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(230.4,-770.4)">
+			<title>工作表.1</title>
+			<desc>AI 问诊核心流程: 多轮对话 + RAG + SSE 流式</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="345.6" cy="808.2" width="691.2" height="39.6"/>
+			<rect x="0" y="788.4" width="691.2" height="39.6" rx="7.2" ry="7.2" class="st1"/>
+			<text x="176.66" y="813" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>AI 问诊核心流程: 多轮对话 + RAG + SSE 流式</text>		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(43.2,-705.6)">
+			<title>工作表.2</title>
+			<desc>用户发消息 POST /consult/sessions/{id}/stream</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108" cy="810" width="216" height="36"/>
+			<rect x="0" y="792" width="216" height="36" rx="5.76" ry="5.76" class="st3"/>
+			<text x="70.3" y="807" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>用户发消息 POST <tspan
+						x="34.93" dy="1.2em" class="st5">/consult/sessions/{id}/stream</tspan></text>		</g>
+		<g id="shape3-8" v:mID="3" v:groupContext="shape" transform="translate(979.2,122.4) rotate(90)">
+			<title>工作表.3</title>
+			<path d="M0 828 L42.76 828" class="st6"/>
+		</g>
+		<g id="shape4-14" v:mID="4" v:groupContext="shape" transform="translate(43.2,-612)">
+			<title>工作表.4</title>
+			<desc>1 保存用户消息 校验会话归属 + 模型白名单</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108" cy="806.4" width="216" height="43.2"/>
+			<rect x="0" y="784.8" width="216" height="43.2" rx="5.76" ry="5.76" class="st8"/>
+			<text x="74.75" y="803.55" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>1 保存用户消息<v:newlineChar/><tspan
+						x="48.63" dy="1.2em" class="st5">校验会话归属</tspan> + 模型白名单</text>		</g>
+		<g id="shape5-18" v:mID="5" v:groupContext="shape" transform="translate(979.2,216) rotate(90)">
+			<title>工作表.5</title>
+			<path d="M0 828 L35.56 828" class="st6"/>
+		</g>
+		<g id="shape6-23" v:mID="6" v:groupContext="shape" transform="translate(43.2,-525.6)">
+			<title>工作表.6</title>
+			<desc>2 拉取最近 10 条历史 组装 UserMessage/AssistantMessage</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108" cy="806.4" width="216" height="43.2"/>
+			<rect x="0" y="784.8" width="216" height="43.2" rx="5.76" ry="5.76" class="st8"/>
+			<text x="60.5" y="803.55" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>2 拉取最近 10 条历史<v:newlineChar/><tspan
+						x="29.63" dy="1.2em" class="st5">组装</tspan> UserMessage/AssistantMessage</text>		</g>
+		<g id="shape7-27" v:mID="7" v:groupContext="shape" transform="translate(979.2,302.4) rotate(90)">
+			<title>工作表.7</title>
+			<path d="M0 828 L35.56 828" class="st6"/>
+		</g>
+		<g id="shape8-32" v:mID="8" v:groupContext="shape" transform="translate(43.2,-439.2)">
+			<title>工作表.8</title>
+			<desc>3 RAG 检索 Markdown 分块 → 向量化 → topK 相似</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108" cy="806.4" width="216" height="43.2"/>
+			<rect x="0" y="784.8" width="216" height="43.2" rx="5.76" ry="5.76" class="st10"/>
+			<text x="84.25" y="803.55" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>3 RAG 检索<v:newlineChar/><tspan
+						x="22.5" dy="1.2em" class="st5">Markdown </tspan>分块 → 向量化 → topK 相似</text>		</g>
+		<g id="shape9-36" v:mID="9" v:groupContext="shape" transform="translate(979.2,388.8) rotate(90)">
+			<title>工作表.9</title>
+			<path d="M0 828 L35.56 828" class="st6"/>
+		</g>
+		<g id="shape10-41" v:mID="10" v:groupContext="shape" transform="translate(43.2,-352.8)">
+			<title>工作表.10</title>
+			<desc>4 拼装 Prompt SystemPrompt + RAG 知识 + 历史</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108" cy="806.4" width="216" height="43.2"/>
+			<rect x="0" y="784.8" width="216" height="43.2" rx="5.76" ry="5.76" class="st8"/>
+			<text x="77.13" y="803.55" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>4 拼装 Prompt<v:newlineChar/><tspan
+						x="36.75" dy="1.2em" class="st5">SystemPrompt + RAG </tspan>知识 + 历史</text>		</g>
+		<g id="shape11-45" v:mID="11" v:groupContext="shape" transform="translate(979.2,475.2) rotate(90)">
+			<title>工作表.11</title>
+			<path d="M0 828 L35.56 828" class="st6"/>
+		</g>
+		<g id="shape12-50" v:mID="12" v:groupContext="shape" transform="translate(43.2,-266.4)">
+			<title>工作表.12</title>
+			<desc>5 ChatClient.stream() 订阅 Flux</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108" cy="806.4" width="216" height="43.2"/>
+			<rect x="0" y="784.8" width="216" height="43.2" rx="5.76" ry="5.76" class="st3"/>
+			<text x="33.84" y="809.25" class="st11" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>5 ChatClient.stream() 订阅 Flux</text>		</g>
+		<g id="shape13-53" v:mID="13" v:groupContext="shape" transform="translate(979.2,561.6) rotate(90)">
+			<title>工作表.13</title>
+			<path d="M0 828 L35.56 828" class="st6"/>
+		</g>
+		<g id="shape14-58" v:mID="14" v:groupContext="shape" transform="translate(43.2,-180)">
+			<title>工作表.14</title>
+			<desc>6 SseEmitter 逐 chunk 推送 前端 EventSource 接收</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108" cy="806.4" width="216" height="43.2"/>
+			<rect x="0" y="784.8" width="216" height="43.2" rx="5.76" ry="5.76" class="st12"/>
+			<text x="45.82" y="803.55" class="st11" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>6 SseEmitter 逐 chunk 推送<v:newlineChar/><tspan
+						x="57.81" dy="1.2em" class="st5">前端</tspan> EventSource 接收</text>		</g>
+		<g id="shape15-62" v:mID="15" v:groupContext="shape" transform="translate(979.2,648) rotate(90)">
+			<title>工作表.15</title>
+			<path d="M0 828 L35.56 828" class="st6"/>
+		</g>
+		<g id="shape16-67" v:mID="16" v:groupContext="shape" transform="translate(43.2,-93.6)">
+			<title>工作表.16</title>
+			<desc>7 流结束: 落库 assistant 消息 onTimeout/onError 兜底关闭</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108" cy="806.4" width="216" height="43.2"/>
+			<rect x="0" y="784.8" width="216" height="43.2" rx="5.76" ry="5.76" class="st8"/>
+			<text x="42.75" y="803.7" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>7 流结束: 落库 assistant 消息<v:newlineChar/><tspan
+						x="49.5" dy="1.2em" class="st5">onTimeout/onError </tspan>兜底关闭</text>		</g>
+		<g id="shape17-71" v:mID="17" v:groupContext="shape" transform="translate(374.4,-525.6)">
+			<title>工作表.17</title>
+			<desc>知识库 pet-care.md MarkdownDocumentReader</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108" cy="806.4" width="216" height="43.2"/>
+			<rect x="0" y="784.8" width="216" height="43.2" rx="5.76" ry="5.76" class="st10"/>
+			<text x="67.5" y="803.7" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>知识库 pet-care.md<v:newlineChar/><tspan
+						x="58.5" dy="1.2em" class="st5">MarkdownDocumentReader</tspan></text>		</g>
+		<g id="shape18-75" v:mID="18" v:groupContext="shape" transform="translate(374.4,-439.2)">
+			<title>工作表.18</title>
+			<desc>SimpleVectorStore (向量化·内存)</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108" cy="806.4" width="216" height="43.2"/>
+			<rect x="0" y="784.8" width="216" height="43.2" rx="5.76" ry="5.76" class="st10"/>
+			<text x="36" y="809.1" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>SimpleVectorStore (向量化·内存)</text>		</g>
+		<g id="shape19-78" v:mID="19" v:groupContext="shape" transform="translate(1310.4,302.4) rotate(90)">
+			<title>工作表.19</title>
+			<path d="M0 828 L35.76 828" class="st14"/>
+		</g>
+		<g id="shape20-84" v:mID="20" v:groupContext="shape" transform="translate(374.4,1195.2) rotate(180)">
+			<title>工作表.20</title>
+			<path d="M0 828 L107.76 828" class="st14"/>
+		</g>
+		<g id="shape21-89" v:mID="21" v:groupContext="shape" transform="translate(648,-266.4)">
+			<title>工作表.21</title>
+			<desc>百炼 DashScope (qwen-plus·OpenAI 兼容)</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108" cy="806.4" width="216" height="43.2"/>
+			<rect x="0" y="784.8" width="216" height="43.2" rx="5.76" ry="5.76" class="st16"/>
+			<text x="19.65" y="809.1" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>百炼 DashScope (qwen-plus·OpenAI 兼容)</text>		</g>
+		<g id="shape22-92" v:mID="22" v:groupContext="shape" transform="translate(259.2,-288)">
+			<title>工作表.22</title>
+			<path d="M0 828 L381.36 828" class="st14"/>
+		</g>
+		<g id="shape23-97" v:mID="23" v:groupContext="shape" transform="translate(648,-705.6)">
+			<title>工作表.23</title>
+			<desc>图片问诊 POST /consult/image (多模态)</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108" cy="810" width="216" height="36"/>
+			<rect x="0" y="792" width="216" height="36" rx="5.76" ry="5.76" class="st18"/>
+			<text x="19.57" y="812.85" class="st11" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>图片问诊 POST /consult/image (多模态)</text>		</g>
+		<g id="shape24-100" v:mID="24" v:groupContext="shape" transform="translate(648,-648)">
+			<title>工作表.24</title>
+			<desc>UserMessage.builder().media()</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108" cy="810" width="216" height="36"/>
+			<rect x="0" y="792" width="216" height="36" rx="5.76" ry="5.76" class="st19"/>
+			<text x="42.75" y="812.7" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>UserMessage.builder().media()</text>		</g>
+		<g id="shape25-103" v:mID="25" v:groupContext="shape" transform="translate(1584,122.4) rotate(90)">
+			<title>工作表.25</title>
+			<path d="M0 828 L14.56 828" class="st20"/>
+		</g>
+		<g id="shape26-109" v:mID="26" v:groupContext="shape" transform="translate(1584,180) rotate(90)">
+			<title>工作表.26</title>
+			<path d="M0 828 L330.96 828" class="st14"/>
+		</g>
+	</g>
+</svg>

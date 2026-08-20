@@ -1,0 +1,117 @@
+# 萌宠之家 · 全栈一键编排（生产/云服务器）
+#
+# 用法：
+#   1. 确保 backend/.env 存在（含 BAILIAN_API_KEY 等密钥，env_file 自动加载）
+#   2. （可选）在根目录建 .env 覆盖 JWT_SECRET 等
+#   3. docker compose up -d --build
+#   4. 首次：导入种子数据
+#        docker compose exec -T mysql mysql -uroot -proot123 pet_home < backend/seed_data.sql
+#        docker compose exec -T mysql mysql -uroot -proot123 pet_home < backend/seed_services.sql
+#
+# 注意：MySQL/Redis/RabbitMQ/backend 端口均不对公网暴露，仅 frontend 暴露 80。
+#      HTTPS 请在前端容器加证书 或 在前面套 host nginx/traefik。
+
+name: pethome
+
+services:
+  # ============ 中间件 ============
+  mysql:
+    image: mysql:8.0
+    container_name: pet-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: pet_home
+      TZ: Asia/Shanghai
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    volumes:
+      - pet-mysql-data:/var/lib/mysql
+      - ./backend/src/main/resources/schema.sql:/docker-entrypoint-initdb.d/schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -uroot -p$$MYSQL_ROOT_PASSWORD || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+    # ports: ["3306:3306"]   # 生产不对外暴露；调试时取消注释
+
+  redis:
+    image: redis:7-alpine
+    container_name: pet-redis
+    restart: unless-stopped
+    command: redis-server --appendonly yes
+    volumes:
+      - pet-redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+    # ports: ["6379:6379"]
+
+  rabbitmq:
+    image: rabbitmq:3.13-management
+    container_name: pet-rabbitmq
+    restart: unless-stopped
+    environment:
+      RABBITMQ_DEFAULT_USER: pet
+      RABBITMQ_DEFAULT_PASS: pet123
+    volumes:
+      - pet-rabbitmq-data:/var/lib/rabbitmq
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "ping"]
+      interval: 15s
+      timeout: 10s
+      retries: 10
+      start_period: 30s
+    # ports: ["5672:5672", "15672:15672"]
+
+  # ============ 后端 ============
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: pet-backend
+    restart: unless-stopped
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      rabbitmq:
+        condition: service_healthy
+    # env_file 加载 backend/.env 里的密钥（BAILIAN/ALIPAY/TENCENT/WEATHER/AMAP/UNSPLASH/ALIYUN）
+    # environment 覆盖 docker 拓扑地址 + prod 配置（environment 优先级高于 env_file）
+    env_file:
+      - ./backend/.env
+    environment:
+      SPRING_PROFILES_ACTIVE: prod
+      DB_HOST: mysql
+      DB_PASSWORD: root123
+      REDIS_HOST: redis
+      MQ_HOST: rabbitmq
+      MQ_USERNAME: pet
+      MQ_PASSWORD: pet123
+      JWT_SECRET: ${JWT_SECRET:-prod-please-change-jwt-secret-2026-min32chars}
+    volumes:
+      - pet-uploads:/app/uploads
+    # 不对公网暴露：仅 frontend 容器通过 backend:8088 访问
+
+  # ============ 前端（nginx 托管静态 + 反代 /api） ============
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: pet-frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "80:80"
+      # - "443:443"   # 启用 HTTPS 时取消注释并把证书挂进前端容器
+
+volumes:
+  pet-mysql-data:
+  pet-redis-data:
+  pet-rabbitmq-data:
+  pet-uploads:

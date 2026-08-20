@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>萌宠之家 · 一站式养宠平台</title>
+    <meta name="description" content="宠物档案、同城服务、爱宠商城、内容社区、在线问诊、宠物保险 — 一站式养宠平台（模拟 Demo）" />
+    <!-- 设计系统：Fredoka（展示字 / 胖乎乎）+ Nunito（正文 / 圆润友好），来源 ui-ux-pro-max 字体库 Playful Creative 配对 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <!-- 高德地图 JS API：key 与密钥通过 .env 注入，避免提交到仓库 -->
+    <script>
+      window._AMapSecurityConfig = {
+        securityJsCode: '%VITE_AMAP_SECRET%'
+      }
+    </script>
+    <script src="https://webapi.amap.com/maps?v=2.0&key=%VITE_AMAP_KEY%"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 03-cache.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="16in" height="10in" viewBox="0 0 1152 720"
+		xml:space="preserve" color-interpolation-filters="sRGB" class="st27">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#eef6e7;stroke:#5a8440;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+		.st2 {fill:#111111;font-family:宋体;font-size:1.33333em;font-weight:bold}
+		.st3 {fill:#eef6e7;stroke:#5a8440;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.8}
+		.st4 {fill:#111111;font-family:宋体;font-size:0.833336em;font-weight:bold}
+		.st5 {font-size:1em}
+		.st6 {marker-end:url(#mrkr4-13);stroke:#5f5f5f;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.3}
+		.st7 {fill:#5f5f5f;fill-opacity:1;stroke:#5f5f5f;stroke-opacity:1;stroke-width:0.34031413612565}
+		.st8 {fill:#eef5ff;stroke:#1f5fb8;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.8}
+		.st9 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st10 {fill:#5f5f5f;font-family:宋体;font-size:0.75em}
+		.st11 {marker-end:url(#mrkr4-31);stroke:#5a8440;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.3}
+		.st12 {fill:#5a8440;fill-opacity:1;stroke:#5a8440;stroke-opacity:1;stroke-width:0.34031413612565}
+		.st13 {fill:#111111;font-family:宋体;font-size:0.791656em;font-weight:bold}
+		.st14 {fill:#fff3e6;stroke:#e7741a;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st15 {fill:#111111;font-family:宋体;font-size:0.791656em}
+		.st16 {fill:#ffffff;stroke:#5f5f5f;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.8}
+		.st17 {fill:#111111;font-family:宋体;font-size:0.75em;font-weight:bold}
+		.st18 {marker-end:url(#mrkr4-89);stroke:#c02a2e;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.3}
+		.st19 {fill:#c02a2e;fill-opacity:1;stroke:#c02a2e;stroke-opacity:1;stroke-width:0.34031413612565}
+		.st20 {fill:#c02a2e;font-family:宋体;font-size:0.75em}
+		.st21 {fill:#fdeeee;stroke:#c02a2e;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.8}
+		.st22 {fill:#f6f0fc;stroke:#7a58a6;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.8}
+		.st23 {fill:#f6f0fc;stroke:#7a58a6;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st24 {fill:#eeeeee;stroke:#5f5f5f;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.8}
+		.st25 {fill:#111111;font-family:宋体;font-size:0.75em}
+		.st26 {fill:#eeeeee;stroke:#5f5f5f;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st27 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-13" class="st7" v:arrowType="4" v:arrowSize="2" v:setback="5.87692" refX="-5.8769230769231" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-2.9384615384615,-2.9384615384615) "/>
+		</marker>
+		<marker id="mrkr4-31" class="st12" v:arrowType="4" v:arrowSize="2" v:setback="5.87692" refX="-5.8769230769231"
+				orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-2.9384615384615,-2.9384615384615) "/>
+		</marker>
+		<marker id="mrkr4-89" class="st19" v:arrowType="4" v:arrowSize="2" v:setback="5.87692" refX="-5.8769230769231"
+				orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-2.9384615384615,-2.9384615384615) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(259.2,-662.4)">
+			<title>工作表.1</title>
+			<desc>商品详情多级缓存 · 三防设计</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="316.8" cy="700.2" width="633.6" height="39.6"/>
+			<rect x="0" y="680.4" width="633.6" height="39.6" rx="7.2" ry="7.2" class="st1"/>
+			<text x="204.33" y="705" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>商品详情多级缓存 · 三防设计</text>		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(43.2,-590.4)">
+			<title>工作表.2</title>
+			<desc>请求商品详情 GET /api/product/{id}</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="79.2" cy="702" width="158.4" height="36"/>
+			<rect x="0" y="684" width="158.4" height="36" rx="5.76" ry="5.76" class="st3"/>
+			<text x="39" y="699" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>请求商品详情 GET <tspan x="36.37"
+						dy="1.2em" class="st5">/api/product/{id}</tspan></text>		</g>
+		<g id="shape3-8" v:mID="3" v:groupContext="shape" transform="translate(842.4,129.6) rotate(90)">
+			<title>工作表.3</title>
+			<path d="M0 720 L49.96 720" class="st6"/>
+		</g>
+		<g id="shape4-14" v:mID="4" v:groupContext="shape" transform="translate(43.2,-482.4)">
+			<title>工作表.4</title>
+			<desc>L1 Caffeine 本地缓存 (60s · 省跨网络 RTT)</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="79.2" cy="694.8" width="158.4" height="50.4"/>
+			<rect x="0" y="669.6" width="158.4" height="50.4" rx="5.76" ry="5.76" class="st8"/>
+			<text x="26.37" y="691.8" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>L1  Caffeine 本地缓存<v:newlineChar/><tspan
+						x="26.39" dy="1.2em" class="st5">(60s · </tspan>省跨网络 RTT)</text>		</g>
+		<g id="shape5-18" v:mID="5" v:groupContext="shape" transform="translate(842.4,237.6) rotate(90)">
+			<title>工作表.5</title>
+			<path d="M0 720 L71.56 720" class="st6"/>
+		</g>
+		<g id="shape6-23" v:mID="6" v:groupContext="shape" transform="translate(128.16,-437.04)">
+			<title>工作表.6</title>
+			<desc>未命中</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="79.2" cy="713.52" width="158.4" height="12.96"/>
+			<rect x="0" y="707.04" width="158.4" height="12.96" class="st9"/>
+			<text x="4" y="716.22" class="st10" v:langID="2052"><v:paragraph/><v:tabList/>未命中</text>		</g>
+		<g id="shape7-26" v:mID="7" v:groupContext="shape" transform="translate(201.6,-511.2)">
+			<title>工作表.7</title>
+			<path d="M0 720 L78.76 720" class="st11"/>
+		</g>
+		<g id="shape8-32" v:mID="8" v:groupContext="shape" transform="translate(288,-504)">
+			<title>工作表.8</title>
+			<desc>命中 → 返回</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="64.8" cy="702" width="129.6" height="36"/>
+			<rect x="0" y="684" width="129.6" height="36" rx="5.76" ry="5.76" class="st3"/>
+			<text x="34.66" y="705" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>命中 → 返回</text>		</g>
+		<g id="shape9-35" v:mID="9" v:groupContext="shape" transform="translate(43.2,-352.8)">
+			<title>工作表.9</title>
+			<desc>L2 Redis 缓存 (30min · TTL 随机抖动防雪崩)</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="79.2" cy="694.8" width="158.4" height="50.4"/>
+			<rect x="0" y="669.6" width="158.4" height="50.4" rx="5.76" ry="5.76" class="st8"/>
+			<text x="43.97" y="691.8" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>L2  Redis 缓存<v:newlineChar/><tspan
+						x="6.29" dy="1.2em" class="st5">(30min · TTL </tspan>随机抖动防雪崩)</text>		</g>
+		<g id="shape10-39" v:mID="10" v:groupContext="shape" transform="translate(842.4,367.2) rotate(90)">
+			<title>工作表.10</title>
+			<path d="M0 720 L93.16 720" class="st6"/>
+		</g>
+		<g id="shape11-44" v:mID="11" v:groupContext="shape" transform="translate(128.16,-296.64)">
+			<title>工作表.11</title>
+			<desc>未命中</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="79.2" cy="713.52" width="158.4" height="12.96"/>
+			<rect x="0" y="707.04" width="158.4" height="12.96" class="st9"/>
+			<text x="4" y="716.22" class="st10" v:langID="2052"><v:paragraph/><v:tabList/>未命中</text>		</g>
+		<g id="shape12-47" v:mID="12" v:groupContext="shape" transform="translate(201.6,-396)">
+			<title>工作表.12</title>
+			<path d="M0 720 L78.76 720" class="st11"/>
+		</g>
+		<g id="shape13-52" v:mID="13" v:groupContext="shape" transform="translate(288,-374.4)">
+			<title>工作表.13</title>
+			<desc>命中 → 回填 L1 → 返回</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="64.8" cy="702" width="129.6" height="36"/>
+			<rect x="0" y="684" width="129.6" height="36" rx="5.76" ry="5.76" class="st3"/>
+			<text x="9.9" y="704.85" class="st13" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>命中 → 回填 L1 → 返回</text>		</g>
+		<g id="shape14-55" v:mID="14" v:groupContext="shape" transform="translate(43.2,-187.2)">
+			<title>工作表.14</title>
+			<desc>L3 MySQL 回源 Redisson 互斥锁重建 (防击穿 · 二次校验)</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="79.2" cy="687.6" width="158.4" height="64.8"/>
+			<rect x="0" y="655.2" width="158.4" height="64.8" rx="5.76" ry="5.76" class="st14"/>
+			<text x="45.95" y="679.05" class="st15" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>L3  MySQL 回源<v:newlineChar/><tspan
+						x="34.08" dy="1.2em" class="st5">Redisson </tspan>互斥锁重建<v:newlineChar/><tspan x="31.7" dy="1.2em"
+						class="st5">(</tspan>防击穿 · 二次校验)</text>		</g>
+		<g id="shape15-60" v:mID="15" v:groupContext="shape" transform="translate(842.4,532.8) rotate(90)">
+			<title>工作表.15</title>
+			<path d="M0 720 L35.56 720" class="st6"/>
+		</g>
+		<g id="shape16-65" v:mID="16" v:groupContext="shape" transform="translate(64.8,-93.6)">
+			<title>工作表.16</title>
+			<desc>DB 有?</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="57.6" cy="694.8" width="115.2" height="50.4"/>
+			<ellipse cx="57.6" cy="694.8" rx="57.6" ry="25.2" class="st16"/>
+			<text x="44.01" y="697.5" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>DB 有?</text>		</g>
+		<g id="shape17-68" v:mID="17" v:groupContext="shape" transform="translate(180,-118.8)">
+			<title>工作表.17</title>
+			<path d="M0 720 L129.16 720" class="st6"/>
+		</g>
+		<g id="shape18-73" v:mID="18" v:groupContext="shape" transform="translate(316.8,-100.8)">
+			<title>工作表.18</title>
+			<desc>写 Redis(L2 抖动TTL) + Caffeine(L1)</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="86.4" cy="702" width="172.8" height="36"/>
+			<rect x="0" y="684" width="172.8" height="36" rx="5.76" ry="5.76" class="st3"/>
+			<text x="7.09" y="704.7" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>写 Redis(L2 抖动TTL) + Caffeine(L1)</text>		</g>
+		<g id="shape19-76" v:mID="19" v:groupContext="shape" transform="translate(489.6,-118.8)">
+			<title>工作表.19</title>
+			<path d="M0 720 L150.76 720" class="st11"/>
+		</g>
+		<g id="shape20-81" v:mID="20" v:groupContext="shape" transform="translate(648,-100.8)">
+			<title>工作表.20</title>
+			<desc>返回商品</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="79.2" cy="702" width="158.4" height="36"/>
+			<rect x="0" y="684" width="158.4" height="36" rx="5.76" ry="5.76" class="st3"/>
+			<text x="59.12" y="705" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>返回商品</text>		</g>
+		<g id="shape21-84" v:mID="21" v:groupContext="shape" transform="translate(842.4,626.4) rotate(90)">
+			<title>工作表.21</title>
+			<path d="M0 720 L42.76 720" class="st18"/>
+		</g>
+		<g id="shape22-90" v:mID="22" v:groupContext="shape" transform="translate(128.16,-62.64)">
+			<title>工作表.22</title>
+			<desc>无</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="79.2" cy="713.52" width="158.4" height="12.96"/>
+			<rect x="0" y="707.04" width="158.4" height="12.96" class="st9"/>
+			<text x="4" y="716.22" class="st20" v:langID="2052"><v:paragraph/><v:tabList/>无</text>		</g>
+		<g id="shape23-93" v:mID="23" v:groupContext="shape" transform="translate(43.2,7.2)">
+			<title>工作表.23</title>
+			<desc>防穿透 空值缓存 __NULL__ 60s 短 TTL</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="79.2" cy="694.8" width="158.4" height="50.4"/>
+			<rect x="0" y="669.6" width="158.4" height="50.4" rx="5.76" ry="5.76" class="st21"/>
+			<text x="65.65" y="686.7" class="st17" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>防穿透<v:newlineChar/><tspan
+						x="40.72" dy="1.2em" class="st5">空值缓存</tspan> __NULL__<v:newlineChar/><tspan x="56.54" dy="1.2em"
+						class="st5">60s </tspan>短 TTL</text>		</g>
+		<g id="shape24-98" v:mID="24" v:groupContext="shape" transform="translate(504,-590.4)">
+			<title>工作表.24</title>
+			<desc>更新商品 PUT /api/product/{id}</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="136.8" cy="702" width="273.6" height="36"/>
+			<rect x="0" y="684" width="273.6" height="36" rx="5.76" ry="5.76" class="st22"/>
+			<text x="61.29" y="705" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>更新商品 PUT /api/product/{id}</text>		</g>
+		<g id="shape25-101" v:mID="25" v:groupContext="shape" transform="translate(1360.8,129.6) rotate(90)">
+			<title>工作表.25</title>
+			<path d="M0 720 L42.76 720" class="st6"/>
+		</g>
+		<g id="shape26-106" v:mID="26" v:groupContext="shape" transform="translate(504,-475.2)">
+			<title>工作表.26</title>
+			<desc>写后失效 (旁路缓存) 先 UPDATE DB 再 invalidate L1 + L2</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="136.8" cy="687.6" width="273.6" height="64.8"/>
+			<rect x="0" y="655.2" width="273.6" height="64.8" rx="5.76" ry="5.76" class="st23"/>
+			<text x="91.68" y="679.05" class="st15" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>写后失效 (旁路缓存)<v:newlineChar/><tspan
+						x="108.3" dy="1.2em" class="st5">先</tspan> UPDATE DB<v:newlineChar/><tspan x="86.93" dy="1.2em" class="st5">再</tspan> invalidate L1 + L2</text>		</g>
+		<g id="shape27-111" v:mID="27" v:groupContext="shape" transform="translate(1360.8,244.8) rotate(90)">
+			<title>工作表.27</title>
+			<path d="M0 720 L49.96 720" class="st6"/>
+		</g>
+		<g id="shape28-116" v:mID="28" v:groupContext="shape" transform="translate(504,-381.6)">
+			<title>工作表.28</title>
+			<desc>一致性: 读多写少, 删优于更新 (避免脏写)</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="136.8" cy="702" width="273.6" height="36"/>
+			<rect x="0" y="684" width="273.6" height="36" rx="5.76" ry="5.76" class="st24"/>
+			<text x="49.05" y="704.7" class="st25" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>一致性: 读多写少, 删优于更新 (避免脏写)</text>		</g>
+		<g id="shape29-119" v:mID="29" v:groupContext="shape" transform="translate(504,-201.6)">
+			<title>工作表.29</title>
+			<desc>三防对照 - 穿透: 空值缓存 + 短TTL - 击穿: Redisson 互斥锁 + 二次校验 - 雪崩: TTL 随机...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="136.8" cy="662.4" width="273.6" height="115.2"/>
+			<rect x="0" y="604.8" width="273.6" height="115.2" rx="5.76" ry="5.76" class="st26"/>
+			<text x="117.8" y="642.45" class="st15" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>三防对照<v:newlineChar/><tspan
+						x="79.8" dy="1.2em" class="st5">-</tspan> 穿透: 空值缓存 + 短TTL<v:newlineChar/><tspan x="56.05" dy="1.2em"
+						class="st5">-</tspan> 击穿: Redisson 互斥锁 + 二次校验<v:newlineChar/><tspan x="48.93" dy="1.2em" class="st5">-</tspan> 雪崩: TTL 随机抖动 (30min + 0~300s)<v:newlineChar/><tspan
+						x="84.55" dy="1.2em" class="st5">-</tspan> 一致性: 写后删 L1+L2</text>		</g>
+	</g>
+</svg>

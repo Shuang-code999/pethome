@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 02-seckill.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="16in" height="12.5in" viewBox="0 0 1152 900"
+		xml:space="preserve" color-interpolation-filters="sRGB" class="st34">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#eef5ff;stroke:#1f5fb8;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+		.st2 {fill:#111111;font-family:宋体;font-size:1.33333em;font-weight:bold}
+		.st3 {fill:#eef5ff;stroke:#1f5fb8;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.8}
+		.st4 {fill:#111111;font-family:宋体;font-size:0.833336em;font-weight:bold}
+		.st5 {marker-end:url(#mrkr4-12);stroke:#5f5f5f;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.3}
+		.st6 {fill:#5f5f5f;fill-opacity:1;stroke:#5f5f5f;stroke-opacity:1;stroke-width:0.34031413612565}
+		.st7 {fill:#fff3e6;stroke:#e7741a;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st8 {fill:#111111;font-family:宋体;font-size:0.791656em}
+		.st9 {font-size:1em}
+		.st10 {fill:#ffffff;stroke:#111111;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.8}
+		.st11 {fill:#111111;font-family:宋体;font-size:0.791656em;font-weight:bold}
+		.st12 {fill:#eeeeee;stroke:#5f5f5f;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.8}
+		.st13 {fill:#eef6e7;stroke:#5a8440;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st14 {fill:#eeeeee;stroke:#5f5f5f;stroke-dasharray:5.6,4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.8}
+		.st15 {marker-end:url(#mrkr4-12);stroke:#5f5f5f;stroke-dasharray:9.1,6.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.3}
+		.st16 {fill:#fdeeee;stroke:#c02a2e;stroke-dasharray:5.6,4;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.8}
+		.st17 {fill:#fdeeee;stroke:#c02a2e;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st18 {fill:#111111;font-family:宋体;font-size:0.75em}
+		.st19 {fill:#111111;font-family:宋体;font-size:0.708344em}
+		.st20 {fill:#eef5ff;stroke:#1f5fb8;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st21 {fill:#ffffff;stroke:#5f5f5f;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.8}
+		.st22 {marker-end:url(#mrkr4-112);stroke:#5a8440;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.4}
+		.st23 {fill:#5a8440;fill-opacity:1;stroke:#5a8440;stroke-opacity:1;stroke-width:0.35714285714286}
+		.st24 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st25 {fill:#5a8440;font-family:宋体;font-size:0.75em}
+		.st26 {fill:#eef6e7;stroke:#5a8440;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.8}
+		.st27 {fill:#fdeeee;stroke:#c02a2e;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.8}
+		.st28 {fill:#111111;font-family:宋体;font-size:0.75em;font-weight:bold}
+		.st29 {marker-end:url(#mrkr4-127);stroke:#c02a2e;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.4}
+		.st30 {fill:#c02a2e;fill-opacity:1;stroke:#c02a2e;stroke-opacity:1;stroke-width:0.35714285714286}
+		.st31 {fill:#eeeeee;stroke:#5f5f5f;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st32 {marker-end:url(#mrkr4-138);stroke:#c02a2e;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+		.st33 {fill:#c02a2e;fill-opacity:1;stroke:#c02a2e;stroke-opacity:1;stroke-width:0.32258064516129}
+		.st34 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-12" class="st6" v:arrowType="4" v:arrowSize="2" v:setback="5.87692" refX="-5.8769230769231" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-2.9384615384615,-2.9384615384615) "/>
+		</marker>
+		<marker id="mrkr4-112" class="st23" v:arrowType="4" v:arrowSize="2" v:setback="5.6" refX="-5.6" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-2.8,-2.8) "/>
+		</marker>
+		<marker id="mrkr4-127" class="st30" v:arrowType="4" v:arrowSize="2" v:setback="5.6" refX="-5.6" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-2.8,-2.8) "/>
+		</marker>
+		<marker id="mrkr4-138" class="st33" v:arrowType="4" v:arrowSize="2" v:setback="6.2" refX="-6.2" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-3.1,-3.1) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(216,-842.4)">
+			<title>工作表.1</title>
+			<desc>秒杀核心流程: 抢券 → 异步下单 → 超时关单/支付竞争</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="360" cy="880.2" width="720" height="39.6"/>
+			<rect x="0" y="860.4" width="720" height="39.6" rx="7.2" ry="7.2" class="st1"/>
+			<text x="155.09" y="885" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>秒杀核心流程: 抢券 → 异步下单 → 超时关单/支付竞争</text>		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(43.2,-784.8)">
+			<title>工作表.2</title>
+			<desc>1 用户抢券 POST /api/seckill/{voucherId}</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108" cy="882" width="216" height="36"/>
+			<rect x="0" y="864" width="216" height="36" rx="5.76" ry="5.76" class="st3"/>
+			<text x="4.78" y="885" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>1 用户抢券  POST /api/seckill/{voucherId}</text>		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(1051.2,115.2) rotate(90)">
+			<title>工作表.3</title>
+			<path d="M0 900 L21.16 900" class="st5"/>
+		</g>
+		<g id="shape4-13" v:mID="4" v:groupContext="shape" transform="translate(43.2,-633.6)">
+			<title>工作表.4</title>
+			<desc>2 Redis + Lua 原子操作 - SISMEMBER 一人一单判重 - HMGET 校验起止时间 - GET/DE...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108" cy="838.8" width="216" height="122.4"/>
+			<rect x="0" y="777.6" width="216" height="122.4" rx="5.76" ry="5.76" class="st7"/>
+			<text x="55.75" y="813.15" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>2 Redis + Lua 原子操作<v:newlineChar/><tspan
+						x="51" dy="1.2em" class="st9">-</tspan> SISMEMBER 一人一单判重<v:newlineChar/><tspan x="60.5" dy="1.2em"
+						class="st9">-</tspan> HMGET 校验起止时间<v:newlineChar/><tspan x="67.63" dy="1.2em" class="st9">-</tspan> GET/DECR 扣库存<v:newlineChar/><tspan
+						x="8.25" dy="1.2em" class="st9">返回</tspan> 0成功 / 1超卖 / 2重复 / 3未开始 / 4已<tspan x="98.5" dy="1.2em"
+						class="st9">结束</tspan></text>		</g>
+		<g id="shape5-21" v:mID="5" v:groupContext="shape" transform="translate(1051.2,266.4) rotate(90)">
+			<title>工作表.5</title>
+			<path d="M0 900 L28.36 900" class="st5"/>
+		</g>
+		<g id="shape6-26" v:mID="6" v:groupContext="shape" transform="translate(43.2,-561.6)">
+			<title>工作表.6</title>
+			<desc>3 生成雪花订单ID 发 MQ (order.create)</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108" cy="882" width="216" height="36"/>
+			<rect x="0" y="864" width="216" height="36" rx="5.76" ry="5.76" class="st10"/>
+			<text x="19.57" y="884.85" class="st11" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>3 生成雪花订单ID 发 MQ (order.create)</text>		</g>
+		<g id="shape7-29" v:mID="7" v:groupContext="shape" transform="translate(1051.2,338.4) rotate(90)">
+			<title>工作表.7</title>
+			<path d="M0 900 L42.76 900" class="st5"/>
+		</g>
+		<g id="shape8-34" v:mID="8" v:groupContext="shape" transform="translate(43.2,-475.2)">
+			<title>工作表.8</title>
+			<desc>4 RabbitMQ 削峰队列 pethome.seckill.queue</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108" cy="882" width="216" height="36"/>
+			<rect x="0" y="864" width="216" height="36" rx="5.76" ry="5.76" class="st12"/>
+			<text x="7.55" y="884.85" class="st11" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>4 RabbitMQ 削峰队列  pethome.seckill.queue</text>		</g>
+		<g id="shape9-37" v:mID="9" v:groupContext="shape" transform="translate(1051.2,424.8) rotate(90)">
+			<title>工作表.9</title>
+			<path d="M0 900 L42.76 900" class="st5"/>
+		</g>
+		<g id="shape10-42" v:mID="10" v:groupContext="shape" transform="translate(43.2,-324)">
+			<title>工作表.10</title>
+			<desc>5 SeckillOrderListener 消费 - Redisson 分布式锁防重复 - INSERT 订单 (sta...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108" cy="849.6" width="216" height="100.8"/>
+			<rect x="0" y="799.2" width="216" height="100.8" rx="5.76" ry="5.76" class="st13"/>
+			<text x="43.88" y="829.65" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>5 SeckillOrderListener 消费<v:newlineChar/><tspan
+						x="48.63" dy="1.2em" class="st9">-</tspan> Redisson 分布式锁防重复<v:newlineChar/><tspan x="51" dy="1.2em"
+						class="st9">-</tspan> INSERT 订单 (status=0)<v:newlineChar/><tspan x="46.25" dy="1.2em" class="st9">-</tspan> DB decrRemain 兜底扣库存<v:newlineChar/><tspan
+						x="79.5" dy="1.2em" class="st9">-</tspan> 发延迟队列</text>		</g>
+		<g id="shape11-49" v:mID="11" v:groupContext="shape" transform="translate(1051.2,576) rotate(90)">
+			<title>工作表.11</title>
+			<path d="M0 900 L42.76 900" class="st5"/>
+		</g>
+		<g id="shape12-54" v:mID="12" v:groupContext="shape" transform="translate(43.2,-237.6)">
+			<title>工作表.12</title>
+			<desc>6 延迟队列 (TTL 30min 无人消费)</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="108" cy="882" width="216" height="36"/>
+			<rect x="0" y="864" width="216" height="36" rx="5.76" ry="5.76" class="st14"/>
+			<text x="33.95" y="884.85" class="st11" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>6 延迟队列 (TTL 30min 无人消费)</text>		</g>
+		<g id="shape13-57" v:mID="13" v:groupContext="shape" transform="translate(259.2,-255.6)">
+			<title>工作表.13</title>
+			<path d="M0 900 L49.96 900" class="st15"/>
+		</g>
+		<g id="shape14-62" v:mID="14" v:groupContext="shape" transform="translate(316.8,-237.6)">
+			<title>工作表.14</title>
+			<desc>7 30min 到期 → 死信交换机 → 死信队列</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="115.2" cy="882" width="230.4" height="36"/>
+			<rect x="0" y="864" width="230.4" height="36" rx="5.76" ry="5.76" class="st16"/>
+			<text x="24.49" y="884.85" class="st11" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>7 30min 到期 → 死信交换机 → 死信队列</text>		</g>
+		<g id="shape15-65" v:mID="15" v:groupContext="shape" transform="translate(1332,662.4) rotate(90)">
+			<title>工作表.15</title>
+			<path d="M0 900 L49.96 900" class="st5"/>
+		</g>
+		<g id="shape16-70" v:mID="16" v:groupContext="shape" transform="translate(316.8,-72)">
+			<title>工作表.16</title>
+			<desc>8 OrderCancelListener 消费 - 查订单 status - 乐观锁 cancelIfUnpaid UP...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="115.2" cy="846" width="230.4" height="108"/>
+			<rect x="0" y="792" width="230.4" height="108" rx="5.76" ry="5.76" class="st17"/>
+			<text x="56.7" y="827.1" class="st18" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>8 OrderCancelListener 消费<v:newlineChar/><tspan
+						x="81.45" dy="1.2em" class="st9">-</tspan> 查订单 status<v:newlineChar/><tspan x="63.45" dy="1.2em"
+						class="st9">-</tspan> 乐观锁 cancelIfUnpaid<v:newlineChar/><tspan x="43.2" dy="1.2em" class="st9">  </tspan>UPDATE SET status=2, version+1<v:newlineChar/><tspan
+						x="31.95" dy="1.2em" class="st9">  </tspan>WHERE id AND status=0 AND version=?</text>		</g>
+		<g id="shape17-77" v:mID="17" v:groupContext="shape" transform="translate(1332,828) rotate(90)">
+			<title>工作表.17</title>
+			<path d="M0 900 L28.36 900" class="st5"/>
+		</g>
+		<g id="shape18-82" v:mID="18" v:groupContext="shape" transform="translate(316.8,0)">
+			<title>工作表.18</title>
+			<desc>9 回滚库存 DB remain+1 / Redis stock+1 / SREM 用户(可重抢)</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="115.2" cy="882" width="230.4" height="36"/>
+			<rect x="0" y="864" width="230.4" height="36" rx="5.76" ry="5.76" class="st12"/>
+			<text x="6.82" y="879.45" class="st19" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>9 回滚库存  DB remain+1 / Redis stock+1 / SREM 用户<tspan
+						x="98.2" dy="1.2em" class="st9">(</tspan>可重抢)</text>		</g>
+		<g id="shape19-86" v:mID="19" v:groupContext="shape" transform="translate(633.6,-784.8)">
+			<title>工作表.19</title>
+			<desc>A 用户支付 POST /api/seckill/pay/{orderId}</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="129.6" cy="882" width="259.2" height="36"/>
+			<rect x="0" y="864" width="259.2" height="36" rx="5.76" ry="5.76" class="st3"/>
+			<text x="21.34" y="885" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>A 用户支付  POST /api/seckill/pay/{orderId}</text>		</g>
+		<g id="shape20-89" v:mID="20" v:groupContext="shape" transform="translate(1663.2,115.2) rotate(90)">
+			<title>工作表.20</title>
+			<path d="M0 900 L42.76 900" class="st5"/>
+		</g>
+		<g id="shape21-94" v:mID="21" v:groupContext="shape" transform="translate(633.6,-648)">
+			<title>工作表.21</title>
+			<desc>B 乐观锁支付 payIfUnpaid UPDATE SET status=1, version+1 WHERE id A...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="129.6" cy="856.8" width="259.2" height="86.4"/>
+			<rect x="0" y="813.6" width="259.2" height="86.4" rx="5.76" ry="5.76" class="st20"/>
+			<text x="72.6" y="848.25" class="st8" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>B 乐观锁支付 payIfUnpaid<v:newlineChar/><tspan
+						x="58.35" dy="1.2em" class="st9">UPDATE SET status=1, version+1<v:newlineChar/></tspan><tspan x="46.48"
+						dy="1.2em" class="st9">WHERE id AND status=0 AND version=?</tspan></text>		</g>
+		<g id="shape22-99" v:mID="22" v:groupContext="shape" transform="translate(1663.2,252) rotate(90)">
+			<title>工作表.22</title>
+			<path d="M0 900 L35.56 900" class="st5"/>
+		</g>
+		<g id="shape23-104" v:mID="23" v:groupContext="shape" transform="translate(705.6,-554.4)">
+			<title>工作表.23</title>
+			<desc>影响行数?</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="64.8" cy="874.8" width="129.6" height="50.4"/>
+			<ellipse cx="64.8" cy="874.8" rx="64.8" ry="25.2" class="st21"/>
+			<text x="42.2" y="877.8" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>影响行数?</text>		</g>
+		<g id="shape24-107" v:mID="24" v:groupContext="shape" transform="translate(1663.2,345.6) rotate(90)">
+			<title>工作表.24</title>
+			<path d="M0 900 L49.76 900" class="st22"/>
+		</g>
+		<g id="shape25-113" v:mID="25" v:groupContext="shape" transform="translate(768.96,-519.84)">
+			<title>工作表.25</title>
+			<desc>=1 成功</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="79.2" cy="893.52" width="158.4" height="12.96"/>
+			<rect x="0" y="887.04" width="158.4" height="12.96" class="st24"/>
+			<text x="4" y="896.22" class="st25" v:langID="2052"><v:paragraph/><v:tabList/>=1 成功</text>		</g>
+		<g id="shape26-116" v:mID="26" v:groupContext="shape" transform="translate(633.6,-460.8)">
+			<title>工作表.26</title>
+			<desc>C 支付成功 status=1</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="129.6" cy="882" width="259.2" height="36"/>
+			<rect x="0" y="864" width="259.2" height="36" rx="5.76" ry="5.76" class="st26"/>
+			<text x="79.29" y="885" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>C 支付成功  status=1</text>		</g>
+		<g id="shape27-119" v:mID="27" v:groupContext="shape" transform="translate(547.2,-547.2)">
+			<title>工作表.27</title>
+			<desc>=0 已被关单</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="64.8" cy="882" width="129.6" height="36"/>
+			<rect x="0" y="864" width="129.6" height="36" rx="5.76" ry="5.76" class="st27"/>
+			<text x="39.93" y="884.7" class="st28" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>=0 已被关单</text>		</g>
+		<g id="shape28-122" v:mID="28" v:groupContext="shape" transform="translate(705.6,1238.4) rotate(180)">
+			<title>工作表.28</title>
+			<path d="M0 900 L20.96 900" class="st29"/>
+		</g>
+		<g id="shape29-128" v:mID="29" v:groupContext="shape" transform="translate(576,-72)">
+			<title>工作表.29</title>
+			<desc>并发竞争: 支付回调 vs 超时关单 同一订单 乐观锁 version 保证仅一方影响行数=1, 另一方=0 幂等跳过 →...</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="273.6" cy="860.4" width="547.2" height="79.2"/>
+			<rect x="0" y="820.8" width="547.2" height="79.2" rx="5.76" ry="5.76" class="st31"/>
+			<text x="175.65" y="851.4" class="st4" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>并发竞争: 支付回调 vs 超时关单 同一订单<v:newlineChar/><tspan
+						x="137.92" dy="1.2em" class="st9">乐观锁</tspan> version 保证仅一方影响行数=1, 另一方=0 幂等跳过<v:newlineChar/><tspan
+						x="190.71" dy="1.2em" class="st9">→</tspan> 不重复关单 / 不超卖 / 最终一致</text>		</g>
+		<g id="shape30-133" v:mID="30" v:groupContext="shape" transform="translate(547.2,-126)">
+			<title>工作表.30</title>
+			<path d="M0 900 L21.36 900" class="st32"/>
+		</g>
+		<g id="shape31-139" v:mID="31" v:groupContext="shape" transform="translate(1663.2,439.2) rotate(90)">
+			<title>工作表.31</title>
+			<path d="M0 900 L302.16 900" class="st32"/>
+		</g>
+	</g>
+</svg>

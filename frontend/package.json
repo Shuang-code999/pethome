@@ -1,0 +1,26 @@
+{
+  "name": "pet-platform-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "shrink:images": "node scripts/shrink-images.cjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.451.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.18.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.2",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "sharp": "^0.35.3",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.9"
+  }
+}

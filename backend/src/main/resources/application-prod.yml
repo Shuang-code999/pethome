@@ -1,0 +1,27 @@
+# ============================================================
+# 萌宠之家 生产环境覆盖配置（profile=prod 时生效）
+# 以下仅列与 dev 不同的项；其余沿用 application.yml
+# 启用方式：SPRING_PROFILES_ACTIVE=prod（见 docker-compose.yml）
+# ============================================================
+
+server:
+  # 信任前端 nginx 的 X-Forwarded-* 头：
+  # 让 req.getScheme()/getServerName()/getServerPort() 反映真实客户端协议域名，
+  # 修复 FileStorageService.toAbsoluteUrl 在反代后拼出 http://localhost:8088 的问题。
+  forward-headers-strategy: framework
+
+spring:
+  # 启动自动建表（IF NOT EXISTS 幂等）；生产首次起表后可改 never 减少启动开销
+  sql:
+    init:
+      mode: always
+
+# prod 不往 stdout 打全量 SQL（交由 slf4j，按日志级别控制）
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
+
+logging:
+  level:
+    com.pethome: info          # dev=debug，生产降到 info
+    org.springframework.ai: warn

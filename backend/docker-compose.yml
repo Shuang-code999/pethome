@@ -1,0 +1,42 @@
+version: "3.8"
+# 萌宠之家 - 后端依赖中间件（本地一键起）
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: pet-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: pet_home
+      TZ: Asia/Shanghai
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    ports:
+      - "3306:3306"
+    volumes:
+      - pet-mysql-data:/var/lib/mysql
+      - ./src/main/resources/schema.sql:/docker-entrypoint-initdb.d/schema.sql:ro
+
+  redis:
+    image: redis:7-alpine
+    container_name: pet-redis
+    restart: unless-stopped
+    command: redis-server --appendonly yes
+    ports:
+      - "6379:6379"
+    volumes:
+      - pet-redis-data:/data
+
+  rabbitmq:
+    image: rabbitmq:3.13-management
+    container_name: pet-rabbitmq
+    restart: unless-stopped
+    environment:
+      RABBITMQ_DEFAULT_USER: pet
+      RABBITMQ_DEFAULT_PASS: pet123
+    ports:
+      - "5672:5672"      # AMQP
+      - "15672:15672"    # 管理台 http://localhost:15672  pet/pet123
+
+volumes:
+  pet-mysql-data:
+  pet-redis-data:

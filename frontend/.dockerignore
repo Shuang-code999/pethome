@@ -1,0 +1,5 @@
+# 构建时排除，加速 + 避免本机 node_modules 进镜像
+node_modules/
+dist/
+.vite/
+*.log
